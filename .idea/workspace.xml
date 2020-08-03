@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d01a03c-5d3f-457f-9879-711630f913f7" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="CurrentScope" pattern="" />
+  </component>
+  <component name="ProjectId" id="1ezJQazOx1Uf2BCAZyVKfD7lSWB" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ChiefeMemberOfFaculty" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\portfolio\achivment\work\MGU\ChiefeMemberOfFaculty" />
+      <recent name="C:\portfolio\achivment\work\MGU" />
+      <recent name="C:\portfolio\achivment\work\MGU\ResetPassword" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\portfolio\achivment\work\MGU" />
+      <recent name="C:\portfolio\achivment\work\MGU\ProfileNoVirification" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.UnionPromo.html">
+    <configuration name="AdminStatistics.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MGU/Admin/AdminStatistics.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="DeletedMembers.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MGU/ChiefeMemberOfFaculty/DeletedMembers.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="MembersOfUnion.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MGU/ChiefeMemberOfFaculty/MembersOfUnion.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="RequestToEntering.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MGU/ChiefeMemberOfFaculty/RequestToEntering.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="UnionPromo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MGU/memberUnion/UnionPromo.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.UnionPromo.html" />
+        <item itemvalue="JavaScript Debug.RequestToEntering.html" />
+        <item itemvalue="JavaScript Debug.AdminStatistics.html" />
+        <item itemvalue="JavaScript Debug.DeletedMembers.html" />
+        <item itemvalue="JavaScript Debug.MembersOfUnion.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d01a03c-5d3f-457f-9879-711630f913f7" name="Default Changelist" comment="" />
+      <created>1595318472979</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595318472979</updated>
+      <workItem from="1595318478069" duration="28618000" />
+      <workItem from="1595403065289" duration="12467000" />
+      <workItem from="1595434617845" duration="13000" />
+      <workItem from="1595438713658" duration="3033000" />
+      <workItem from="1595487021495" duration="34222000" />
+      <workItem from="1595576001236" duration="7028000" />
+      <workItem from="1595596474188" duration="962000" />
+      <workItem from="1596442944096" duration="1743000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

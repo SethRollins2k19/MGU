@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../scrollBar/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <title>Non-verification profile</title>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__left">
+                <img class="header__logo" src="../images/icon/mguiconFilled.png" alt="МГУ">
+                <p class="header__title">
+                    Профсоюзная организация МГУ
+                </p>
+            </div>
+            <div class="header__right">
+                <img class="header__avatar" src="../images/profileIcon.png" alt="avatar">
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <div class="main-wrapper">
+            <nav class="sidebar">
+                <a href="#" class="sidebar__item">
+                    <svg class="sidebar__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 4C13.0609 4 14.0783 4.42143 14.8284 5.17157C15.5786 5.92172 16 6.93913 16 8C16 9.06087 15.5786 10.0783 14.8284 10.8284C14.0783 11.5786 13.0609 12 12 12C10.9391 12 9.92172 11.5786 9.17157 10.8284C8.42143 10.0783 8 9.06087 8 8C8 6.93913 8.42143 5.92172 9.17157 5.17157C9.92172 4.42143 10.9391 4 12 4ZM12 14C16.42 14 20 15.79 20 18V20H4V18C4 15.79 7.58 14 12 14Z"
+                              fill="white"/>
+                    </svg>
+                    Личные данные
+                </a>
+            </nav>
+            <div class="main-frame">
+                <header class="main-frame__header">
+                    <div class="main-frame__avatar">
+                        <img class="main-frame__img" src="../images/profileIcon.png" alt="avatar">
+                    </div>
+                    <p class="main-frame__status">Исключен из профсоюза</p>
+                </header>
+                <main class="megaForm__inner">
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Фамилия</span>
+                        <input type="text" class="form__input form__input--disabled" name="surname" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Имя</span>
+                        <input type="text" class="form__input form__input--disabled" name="name" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Отчество</span>
+                        <input type="text" class="form__input form__input--disabled" name="lastName" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Дата рождения</span>
+                        <input type="text" class="form__input form__input--disabled" name="birth" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled--disabled form__item--sex">
+                        <span class="form__name">Пол</span>
+                        <input type="text" class="form__input form__input--disabled form__input--sex" name="sex"
+                               disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Email</span>
+                        <input type="text" class="form__input form__input--disabled" name="email" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Телефон</span>
+                        <input type="text" class="form__input form__input--disabled" name="phoneNumber" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Факультет</span>
+                        <input type="text" class="form__input form__input--disabled" name="faculty" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Уровень обучения</span>
+                        <input type="text" class="form__input form__input--disabled" name="facultyLVL" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Тип обучения</span>
+                        <input type="text" class="form__input form__input--disabled" name="OfferType" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Текущий курс</span>
+                        <input type="text" class="form__input form__input--disabled" name="studCurrentCourse" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Дата начала обучения</span>
+                        <input type="text" class="form__input form__input--disabled" name="studStart" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Плановый срок окончания обучения</span>
+                        <input type="text" class="form__input form__input--disabled" name="studEnd" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Студенческий билет</span>
+                        <input type="text" class="form__input form__input--disabled" name="studentPass" disabled>
+                    </label>
+                    <footer class="main-frame__footer">
+                        <label class="form__item form__item--checkbox">
+                            <input type="checkbox" name="noStudPass" class="form__input" disabled>
+                            <div class="form__checkbox-shape">
+                                <svg width="13" height="14" viewBox="1 1 12 13" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M1.5 0.5H12C12.825 0.5 13.5 1.175 13.5 2V12.5C13.5 13.325 12.825 14 12 14H1.5C0.675 14 0 13.325 0 12.5V2C0 1.175 0.675 0.5 1.5 0.5ZM5.74991 11.5004L1.99991 7.89463L3.04991 6.88501L5.74991 9.48116L11.4499 4.0004L12.4999 5.01001L5.74991 11.5004Z"
+                                          fill="#1A254E"/>
+                                </svg>
+                            </div>
+                            <span class="form__name">Студенческий билет не выдан</span>
+                        </label>
+                        <div class="form__password">
+                            <label class="form__item">
+                                <span class="form__name">Пароль <span class="form__required">*</span></span>
+                                <input type="password" class="form__input form__input--disabled" name="password"
+                                       disabled>
+                            </label>
+                        </div>
+                        <div class="main-frame__footer-buttons">
+                            <button class="button">
+                                Редактировать
+                            </button>
+                            <button class="button button--disabled">
+                                Сохранить
+                            </button>
+                        </div>
+                    </footer>
+                </main>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
