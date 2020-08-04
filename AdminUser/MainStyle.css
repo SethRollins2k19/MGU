@@ -125,6 +125,7 @@ body {
     justify-content: space-between;
 }
 .filter {
+    cursor: pointer;
     background: #FFFFFF;
     box-shadow: 0 0 10px rgba(169, 170, 194, 0.5);
     border-radius: 7px;
@@ -133,8 +134,10 @@ body {
     display: flex;
     align-items: center;
     width: calc(30% - 15px);
+    color: rgba(0,0,0,0.38);
 }
 .filter svg {
+    opacity: 0.38;
     margin-right: 12px;
 }
 .search {

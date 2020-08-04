@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3d01a03c-5d3f-457f-9879-711630f913f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdminUser/AuthPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/AdminUser/AuthPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdminUser/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/AdminUser/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChiefOfUnionUser/AuthPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChiefOfUnionUser/AuthPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChiefOfUnionUser/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ChiefOfUnionUser/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemberOfUnionUser/AuthPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/MemberOfUnionUser/AuthPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemberOfUnionUser/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MemberOfUnionUser/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NonVerificatedUser/AuthPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/NonVerificatedUser/AuthPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NonVerificatedUser/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/NonVerificatedUser/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileRemovedUser/AuthPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileRemovedUser/AuthPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfileRemovedUser/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ProfileRemovedUser/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VerificatedProfileNoUnionUser/AuthPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/VerificatedProfileNoUnionUser/AuthPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VerificatedProfileNoUnionUser/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/VerificatedProfileNoUnionUser/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminUser/MainStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/AdminUser/MainStyle.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +101,7 @@
       <workItem from="1595576001236" duration="7028000" />
       <workItem from="1595596474188" duration="962000" />
       <workItem from="1596442944096" duration="16555000" />
-      <workItem from="1596514753435" duration="1764000" />
+      <workItem from="1596514753435" duration="2529000" />
     </task>
     <servers />
   </component>
