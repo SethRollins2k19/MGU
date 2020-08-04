@@ -1,0 +1,343 @@
+body {
+    background-color: #FFFFFF;
+    color: #2C2C59;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    padding: 0;
+}
+
+.header__logo {
+    margin-right: 50px;
+    width: 101px;
+    height: 101px;
+}
+
+.header__title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #2C2C59;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.megaForm {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.megaForm__title {
+    font-size: 13px;
+    line-height: 120%;
+}
+.megaForm__title {
+    margin-bottom: 12px;
+}
+.megaForm__inner {
+    width: 100%;
+    max-width: 632px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+.form {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form__item {
+    width: 275px;
+    max-width: 275px;
+    margin-bottom: 10px;
+}
+
+.form__item:first-child {
+    margin-right: 100px;
+}
+
+.form__upload-file {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form__upload-file-label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #A9AAC2;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.form__upload-file-input {
+    display: none;
+}
+
+.form__upload-file-text {
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.38);
+}
+
+
+/*Registration input*/
+
+.form__input {
+    background: #F2F3F5;
+    border: 1px solid #A9AAC2;
+    border-radius: 6px;
+    padding: 7px 8px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form__name {
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.form__required {
+    color: #FF0000;
+}
+
+.form__label-container {
+    background: #F2F3F5;
+    border: 1px solid #A9AAC2;
+    border-radius: 6px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+}
+
+/*toggle input style*/
+.form__label-container--toggle {
+    padding: 2px;
+}
+
+.form__label-container--toggle:after {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    height: calc(100% - 4px);
+    width: calc(50% - 4px);
+    background: #FFFFFF;
+    border-radius: 6px;
+    opacity: .8;
+    transition: .3s linear;
+}
+
+.form__label-container--toggle-active:after {
+    left: calc(50% + 2px);
+}
+
+.form__label--toggle {
+    width: 50%;
+    cursor: pointer;
+    text-align: center;
+    padding: 6px 35px;
+    z-index: 9999;
+}
+
+.form__input--toggle {
+    display: none;
+}
+
+/*end of toggle style*/
+
+/*style for list input*/
+.form__label-container--list {
+    position: relative;
+    padding: 7px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.form__input--list {
+    word-break: break-word;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: -1px;
+    background: #ffffff;
+    z-index: 99999;
+    width: calc(100% + 2px);
+    max-height: 200px;
+    overflow: auto;
+    border: 1px solid #A9AAC2;
+    border-radius: 0 0 7px 7px;
+}
+
+.dropdown--list-dropdown {
+    /*display: flex;*/
+    transform-origin: top;
+    opacity: 0;
+    transform: scaleY(0);
+    transition: .3s linear;
+}
+
+.dropdown__item {
+    padding: 8px 10px;
+    transition: .3s linear;
+    word-break: break-word;
+}
+
+.dropdown__item:hover {
+    background: #F2F3F5;
+}
+
+.form__label-container--list svg {
+    transform-origin: center;
+    transform: rotate(0deg);
+    /*transition: .3s linear;*/
+}
+
+.form__label-container--list--active {
+    border-radius: 6px 6px 0 0;
+}
+
+.form__label-container--list--active svg {
+    margin-right: -2.5px;
+    transform: rotate(90deg);
+}
+
+.form__label-container--list--active .dropdown--list-dropdown {
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+.form__input--value-holder {
+    display: none;
+}
+
+/*end of list input style*/
+
+
+.form__input--error {
+    border: 1px solid #FE3B2F;
+}
+
+
+
+/*checkbox*/
+
+.form__item--checkbox{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+
+}
+
+.form__input[type="checkbox"]{
+    display: none;
+}
+.form__checkbox-shape{
+    overflow: hidden;
+    border: 1px solid #1A254E;
+    border-radius: 2.5px;
+    width: 14px;
+    height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4.5px;
+}
+
+.form__checkbox-shape svg path{
+    fill: none;
+}
+
+.form__input[type="checkbox"]:checked + .form__checkbox-shape svg path {
+    fill: #1A254E;
+}
+
+
+
+.megaForm__footer {
+    width: 100%;
+    max-width: 632px;
+}
+
+.form__password{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.form__password .form__item:first-child {
+    margin-right: 0;
+}
+
+.megaForm__footer .form__item--checkbox {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 6px;
+}
+.megaForm__submit-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.megaForm__submit {
+    border:none;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 26px;
+    background: #2C2C59;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24), 0 0 2px rgba(0, 0, 0, 0.12);
+    border-radius: 7px;
+    padding: 10px 50px;
+    transition: .3s linear;
+    text-transform: uppercase;
+}
+
+.megaForm__submit:hover{
+    background: #3A3A86;
+}
+
+.megaForm__error-message {
+    color: #E42929;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 12px 0px 8px;
+}
+.hide {
+    /*display: none;*/
+}

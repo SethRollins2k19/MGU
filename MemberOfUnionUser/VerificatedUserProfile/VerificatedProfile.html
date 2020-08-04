@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../scrollBar/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <title>Non-verification profile</title>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__left">
+                <img class="header__logo" src="../images/icon/mguiconFilled.png" alt="МГУ">
+                <p class="header__title">
+                    Профсоюзная организация МГУ
+                </p>
+            </div>
+            <div class="header__right">
+                <img class="header__avatar" src="../images/profileIcon.png" alt="avatar">
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <div class="main-wrapper">
+            <nav class="sidebar">
+                <a href="#" class="sidebar__item sidebar__item--active">
+                    <svg class="sidebar__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 4C13.0609 4 14.0783 4.42143 14.8284 5.17157C15.5786 5.92172 16 6.93913 16 8C16 9.06087 15.5786 10.0783 14.8284 10.8284C14.0783 11.5786 13.0609 12 12 12C10.9391 12 9.92172 11.5786 9.17157 10.8284C8.42143 10.0783 8 9.06087 8 8C8 6.93913 8.42143 5.92172 9.17157 5.17157C9.92172 4.42143 10.9391 4 12 4ZM12 14C16.42 14 20 15.79 20 18V20H4V18C4 15.79 7.58 14 12 14Z"
+                              fill="#1A254E"/>
+                    </svg>
+                    Личные данные
+                </a>
+                <a href="../memberUnion/UnionDocs.html" class="sidebar__item">
+                    <svg class="sidebar__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13 9H18.5L13 3.5V9ZM6 2H14L20 8V20C20 20.5304 19.7893 21.0391 19.4142 21.4142C19.0391 21.7893 18.5304 22 18 22H6C5.46957 22 4.96086 21.7893 4.58579 21.4142C4.21071 21.0391 4 20.5304 4 20V4C4 2.89 4.89 2 6 2ZM15 18V16H6V18H15ZM18 14V12H6V14H18Z"
+                              fill="white"/>
+                    </svg>
+
+                    Профбилет
+                </a>
+                <a href="../memberUnion/UnionPass.html" class="sidebar__item">
+                    <svg class="sidebar__icon" width="24" height="18" viewBox="0 0 24 18" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 0H22C23.05 0 24 0.95 24 2V16C24 17.05 23.05 18 22 18H2C0.95 18 0 17.05 0 16V2C0 0.95 0.95 0 2 0ZM14 3V4H22V3H14ZM14 5V6H22V5H14ZM14 7V8H21V7H14ZM8 10.91C6 10.91 2 12 2 14V15H14V14C14 12 10 10.91 8 10.91ZM8 3C7.20435 3 6.44129 3.31607 5.87868 3.87868C5.31607 4.44129 5 5.20435 5 6C5 6.79565 5.31607 7.55871 5.87868 8.12132C6.44129 8.68393 7.20435 9 8 9C8.79565 9 9.55871 8.68393 10.1213 8.12132C10.6839 7.55871 11 6.79565 11 6C11 5.20435 10.6839 4.44129 10.1213 3.87868C9.55871 3.31607 8.79565 3 8 3Z"
+                              fill="white"/>
+                    </svg>
+                    Документы
+                </a>
+                <a href="../memberUnion/UnionPromo.html" class="sidebar__item">
+                    <svg class="sidebar__icon" width="22" height="24" viewBox="0 0 22 24" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.65 2.8934L18.26 6.7534L21.77 8.5434L20 12.0434L21.78 15.5434L18.24 17.3334L17.63 21.1934L13.74 20.5834L10.97 23.3434L8.18997 20.5434L4.32997 21.1834L3.70997 17.2934L0.219971 15.5134L1.99997 12.0134L0.229971 8.5434L3.73997 6.7334L4.34997 2.9034L8.21997 3.5434L11 0.733398L13.77 3.5034L17.65 2.8934ZM8.49997 7.0434C8.10215 7.0434 7.72061 7.20143 7.43931 7.48274C7.15801 7.76404 6.99997 8.14557 6.99997 8.5434C6.99997 8.94122 7.15801 9.32276 7.43931 9.60406C7.72061 9.88536 8.10215 10.0434 8.49997 10.0434C8.89779 10.0434 9.27933 9.88536 9.56063 9.60406C9.84194 9.32276 9.99997 8.94122 9.99997 8.5434C9.99997 8.14557 9.84194 7.76404 9.56063 7.48274C9.27933 7.20143 8.89779 7.0434 8.49997 7.0434ZM13.5 14.0434C13.1021 14.0434 12.7206 14.2014 12.4393 14.4827C12.158 14.764 12 15.1456 12 15.5434C12 15.9412 12.158 16.3228 12.4393 16.6041C12.7206 16.8854 13.1021 17.0434 13.5 17.0434C13.8978 17.0434 14.2793 16.8854 14.5606 16.6041C14.8419 16.3228 15 15.9412 15 15.5434C15 15.1456 14.8419 14.764 14.5606 14.4827C14.2793 14.2014 13.8978 14.0434 13.5 14.0434ZM7.40997 17.0434L16 8.4534L14.59 7.0434L5.99997 15.6334L7.40997 17.0434Z"
+                              fill="#1A254E"/>
+                    </svg>
+                    Скидки
+                </a>
+            </nav>
+            <div class="main-frame">
+                <header class="main-frame__header">
+                    <div class="main-frame__avatar">
+                        <img class="main-frame__img" src="../images/profileIcon.png" alt="avatar">
+                    </div>
+                    <p class="main-frame__status">Член профсоюза</p>
+                </header>
+                <main class="megaForm__inner">
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Фамилия</span>
+                        <input type="text" class="form__input form__input--disabled" name="surname" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Имя</span>
+                        <input type="text" class="form__input form__input--disabled" name="name" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Отчество</span>
+                        <input type="text" class="form__input form__input--disabled" name="lastName" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Дата рождения</span>
+                        <input type="text" class="form__input form__input--disabled" name="birth" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled--disabled form__item--sex">
+                        <span class="form__name">Пол</span>
+                        <input type="text" class="form__input form__input--disabled form__input--sex" name="sex"
+                               disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Email</span>
+                        <input type="text" class="form__input form__input--disabled" name="email" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Телефон</span>
+                        <input type="text" class="form__input form__input--disabled" name="phoneNumber" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Факультет</span>
+                        <input type="text" class="form__input form__input--disabled" name="faculty" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Уровень обучения</span>
+                        <input type="text" class="form__input form__input--disabled" name="facultyLVL" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Тип обучения</span>
+                        <input type="text" class="form__input form__input--disabled" name="OfferType" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Текущий курс</span>
+                        <input type="text" class="form__input form__input--disabled" name="studCurrentCourse" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Дата начала обучения</span>
+                        <input type="text" class="form__input form__input--disabled" name="studStart" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Плановый срок окончания обучения</span>
+                        <input type="text" class="form__input form__input--disabled" name="studEnd" disabled>
+                    </label>
+                    <label class="form__item form__item--disabled">
+                        <span class="form__name">Студенческий билет</span>
+                        <input type="text" class="form__input form__input--disabled" name="studentPass" disabled>
+                    </label>
+                    <footer class="main-frame__footer">
+                        <label class="form__item form__item--checkbox">
+                            <input type="checkbox" name="noStudPass" class="form__input" disabled>
+                            <div class="form__checkbox-shape">
+                                <svg width="13" height="14" viewBox="1 1 12 13" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M1.5 0.5H12C12.825 0.5 13.5 1.175 13.5 2V12.5C13.5 13.325 12.825 14 12 14H1.5C0.675 14 0 13.325 0 12.5V2C0 1.175 0.675 0.5 1.5 0.5ZM5.74991 11.5004L1.99991 7.89463L3.04991 6.88501L5.74991 9.48116L11.4499 4.0004L12.4999 5.01001L5.74991 11.5004Z"
+                                          fill="#1A254E"/>
+                                </svg>
+                            </div>
+                            <span class="form__name">Студенческий билет не выдан</span>
+                        </label>
+                        <div class="form__password">
+                            <label class="form__item">
+                                <span class="form__name">Пароль <span class="form__required">*</span></span>
+                                <input type="password" class="form__input form__input--disabled" name="password"
+                                       disabled>
+                            </label>
+                        </div>
+                        <div class="main-frame__footer-buttons">
+                            <button class="button">
+                                Редактировать
+                            </button>
+                            <button class="button button--disabled">
+                                Сохранить
+                            </button>
+                        </div>
+                    </footer>
+                </main>
+            </div>
+            <div class="change-faculty">
+                <p class="change-faculty__title">
+                    Смена факультета
+                </p>
+                <p class="change-faculty__text">
+                    Для смены факультета вы также можете обратиться к председателю профкома факультета. Обратите
+                    внимание, что рассмотрение заявки может занять от 2 до 7 дней.
+                </p>
+                <button class="button">
+                    Сменить факультет
+                </button>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>

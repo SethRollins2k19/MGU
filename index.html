@@ -5,26 +5,40 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./button.css">
     <title>Document</title>
     <style>
         body {
             display: flex;
             flex-direction: column;
         }
+        .container-wrapper {
+            display: flex;
+            justify-content: space-around;
+        }
     </style>
 </head>
 <body>
-<a href="./Admin/AdminStatistics.html">admin</a>
-<a href="./AuthPage/AuthPage.html">Auth</a>
-<a href="./Registration/Registration.html">Registration</a>
-<a href="./ResetPassword/ResetPassword.html">Reset Password</a>
-<a href="./ChiefeMemberOfFaculty/DeletedMembers.html">member of faculty -- deleted</a>
-<a href="./ChiefeMemberOfFaculty/RequestToEntering.html">member of faculty -- entering</a>
-<a href="./ChiefeMemberOfFaculty/MembersOfUnion.html">member of faculty -- member</a>
-<a href="./memberUnion/UnionDocs.html">Member of union --PASS</a>
-<a href="./memberUnion/UnionPromo.html">Member of union --PROMO</a>
-<a href="./ProfileNoVirification/NoVerification.html">no verification</a>
-<a href="./ProfileRemoved/ProfileRemoved.html">Removed member</a>
-<a href="./VerificatedUser/Verificated.html">verificated user</a>
+<div class="container-wrapper">
+    <div>
+        <a href="./NonVerificatedUser/AuthPage.html" class="button">Так будет выглядеть кабинет неверифицированного пользователя</a>
+    </div>
+    <div>
+        <a href="./ProfileRemovedUser/AuthPage.html" class="button">Так будет выглядеть кабинет исключенного пользователя</a>
+    </div>
+    <div>
+        <a href="./VerificatedProfileNoUnionUser/AuthPage.html" class="button">Так будет выглядеть кабинет верефицированного пользователя не состоящего в профсоюзной организации</a>
+    </div>
+    <div>
+        <a href="./MemberOfUnionUser/AuthPage.html" class="button">Так будет выглядеть кабинет верефицированного пользователя состоящящего в профсоюзной организации</a>
+    </div>
+    <div>
+        <a href="./ChiefOfUnionUser/AuthPage.html" class="button">Так будет выглядеть кабинет председателя профкома</a>
+    </div>
+    <div>
+        <a href="./AdminUser/AuthPage.html" class="button">Так будет выглядеть кабинет администратора</a>
+    </div>
+
+</div>
 </body>
 </html>

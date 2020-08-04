@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../../scrollBar/style.css">
+    <link rel="stylesheet" href="../button.css">
+    <link rel="stylesheet" href="../MainStyle.css">
+    <script src="../../chart/tui-chart.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <title>verification profile</title>
+</head>
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__left">
+                <img class="header__logo" src="../images/icon/mguiconFilled.png" alt="МГУ">
+                <p class="header__title">
+                    Профсоюзная организация МГУ
+                </p>
+            </div>
+            <div class="header__right">
+                <img class="header__avatar" src="../images/profileIcon.png" alt="avatar">
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <div class="main-wrapper">
+            <nav class="sidebar">
+                <a href="./Request.html" class="sidebar__item">
+                    <svg class="sidebar__icon" width="24" height="14" viewBox="0 0 24 14" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 12V14H7V12C7 12 7 8 13 8C19 8 19 12 19 12ZM16 3C16 2.40666 15.8241 1.82664 15.4944 1.33329C15.1648 0.839943 14.6962 0.455426 14.1481 0.228363C13.5999 0.00129986 12.9967 -0.0581102 12.4147 0.0576455C11.8328 0.173401 11.2982 0.459123 10.8787 0.878681C10.4591 1.29824 10.1734 1.83279 10.0576 2.41473C9.94189 2.99667 10.0013 3.59987 10.2284 4.14805C10.4554 4.69623 10.8399 5.16477 11.3333 5.49441C11.8266 5.82405 12.4067 6 13 6C13.7956 6 14.5587 5.68393 15.1213 5.12132C15.6839 4.55871 16 3.79565 16 3ZM19.2 8.06C19.7466 8.5643 20.1873 9.17244 20.4964 9.84891C20.8054 10.5254 20.9766 11.2566 21 12V14H24V12C24 12 24 8.55 19.2 8.06ZM18 1.1415e-06C17.6979 0.000181955 17.3976 0.0474144 17.11 0.140001C17.6951 0.97897 18.0087 1.97718 18.0087 3C18.0087 4.02282 17.6951 5.02103 17.11 5.86C17.3976 5.95259 17.6979 5.99982 18 6C18.7956 6 19.5587 5.68393 20.1213 5.12132C20.6839 4.55871 21 3.79565 21 3C21 2.20435 20.6839 1.44129 20.1213 0.878681C19.5587 0.316072 18.7956 1.1415e-06 18 1.1415e-06ZM8 5H5V2H3V5H0V7H3V10H5V7H8V5Z"
+                              fill="white"/>
+                    </svg>
+                    Заявки
+                </a>
+                <a href="./Members.html" class="sidebar__item">
+                    <svg class="sidebar__icon" width="23" height="14" viewBox="0 0 23 14" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 12V14H6V12C6 12 6 8 12 8C18 8 18 12 18 12ZM15 3C15 2.40666 14.8241 1.82664 14.4944 1.33329C14.1648 0.839943 13.6962 0.455426 13.1481 0.228363C12.5999 0.00129986 11.9967 -0.0581102 11.4147 0.0576455C10.8328 0.173401 10.2982 0.459123 9.87868 0.878681C9.45912 1.29824 9.1734 1.83279 9.05764 2.41473C8.94189 2.99667 9.0013 3.59987 9.22836 4.14805C9.45542 4.69623 9.83994 5.16477 10.3333 5.49441C10.8266 5.82405 11.4067 6 12 6C12.7956 6 13.5587 5.68393 14.1213 5.12132C14.6839 4.55871 15 3.79565 15 3ZM18.2 8.06C18.7466 8.5643 19.1873 9.17244 19.4964 9.84891C19.8054 10.5254 19.9766 11.2566 20 12V14H23V12C23 12 23 8.55 18.2 8.06ZM17 1.1415e-06C16.6979 0.000181955 16.3976 0.0474144 16.11 0.140001C16.6951 0.97897 17.0087 1.97718 17.0087 3C17.0087 4.02282 16.6951 5.02103 16.11 5.86C16.3976 5.95259 16.6979 5.99982 17 6C17.7956 6 18.5587 5.68393 19.1213 5.12132C19.6839 4.55871 20 3.79565 20 3C20 2.20435 19.6839 1.44129 19.1213 0.878681C18.5587 0.316072 17.7956 1.1415e-06 17 1.1415e-06ZM6.34 3.92L7.5 5.33L2.75 10.08L0 7.08L1.16 5.92L2.75 7.5L6.34 3.92Z"
+                              fill="#1A254E"/>
+                    </svg>
+
+                    Члены профсоюза
+                </a>
+                <a href="./Removed.html" class="sidebar__item ">
+                    <svg class="sidebar__icon" width="24" height="14" viewBox="0 0 24 14" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 12V14H7V12C7 12 7 8 13 8C19 8 19 12 19 12ZM16 3C16 2.40666 15.8241 1.82664 15.4944 1.33329C15.1648 0.839943 14.6962 0.455426 14.1481 0.228363C13.5999 0.00129986 12.9967 -0.0581102 12.4147 0.0576455C11.8328 0.173401 11.2982 0.459123 10.8787 0.878681C10.4591 1.29824 10.1734 1.83279 10.0576 2.41473C9.94189 2.99667 10.0013 3.59987 10.2284 4.14805C10.4554 4.69623 10.8399 5.16477 11.3333 5.49441C11.8266 5.82405 12.4067 6 13 6C13.7956 6 14.5587 5.68393 15.1213 5.12132C15.6839 4.55871 16 3.79565 16 3ZM19.2 8.06C19.7466 8.5643 20.1873 9.17244 20.4964 9.84891C20.8054 10.5254 20.9766 11.2566 21 12V14H24V12C24 12 24 8.55 19.2 8.06ZM18 1.1415e-06C17.6979 0.000181955 17.3976 0.0474144 17.11 0.140001C17.6951 0.97897 18.0087 1.97718 18.0087 3C18.0087 4.02282 17.6951 5.02103 17.11 5.86C17.3976 5.95259 17.6979 5.99982 18 6C18.7956 6 19.5587 5.68393 20.1213 5.12132C20.6839 4.55871 21 3.79565 21 3C21 2.20435 20.6839 1.44129 20.1213 0.878681C19.5587 0.316072 18.7956 1.1415e-06 18 1.1415e-06ZM8 5H0V7H8V5Z"
+                              fill="#1A254E"/>
+                    </svg>
+                    Исключенные
+                </a>
+                <a href="./Employeer.html" class="sidebar__item">
+                    <svg class="sidebar__icon" width="16" height="18" viewBox="0 0 16 18" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 0C9.06087 0 10.0783 0.421427 10.8284 1.17157C11.5786 1.92172 12 2.93913 12 4C12 5.06087 11.5786 6.07828 10.8284 6.82843C10.0783 7.57857 9.06087 8 8 8C6.93913 8 5.92172 7.57857 5.17157 6.82843C4.42143 6.07828 4 5.06087 4 4C4 2.93913 4.42143 1.92172 5.17157 1.17157C5.92172 0.421427 6.93913 0 8 0ZM12 10.54C12 11.6 11.72 14.07 9.81 16.83L9 12L9.94 10.12C9.32 10.05 8.67 10 8 10C7.33 10 6.68 10.05 6.06 10.12L7 12L6.19 16.83C4.28 14.07 4 11.6 4 10.54C1.61 11.24 0 12.5 0 14V18H16V14C16 12.5 14.4 11.24 12 10.54Z"
+                              fill="#1A254E"/>
+                    </svg>
+                    Сотрудники
+                </a>
+                <a href="./AdminStatistics.html" class="sidebar__item sidebar__item--active">
+                    <svg class="sidebar__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 0V20C3.9 19.5 0 15.2 0 10C0 4.8 3.9 0.5 9 0ZM11 0V9H20C19.5 4.2 15.8 0.5 11 0ZM11 11V20C15.7 19.5 19.5 15.8 20 11H11Z"
+                              fill="#1A254E"/>
+                    </svg>
+                    Статистика
+                </a>
+            </nav>
+            <div class="statistics">
+                <div class="statistics__header">
+                    <div class="statistics__item">
+                        <p class="statistics__value"> 90</p>
+                        <p class="statistics__info">Новых польователей за последние 30 дней</p>
+                    </div>
+                    <div class="statistics__item">
+                        <p class="statistics__value"> 9990</p>
+                        <p class="statistics__info">Сегодня вышло из профсоюза</p>
+                    </div>
+                    <div class="statistics__item">
+                        <p class="statistics__value"> 999</p>
+                        <p class="statistics__info">Необработанных заявок</p>
+                    </div>
+                    <div class="statistics__item">
+                        <p class="statistics__value"> 999</p>
+                        <p class="statistics__info">Бюджетников на данный момент</p>
+                    </div>
+                    <div class="statistics__item">
+                        <p class="statistics__value"> 0</p>
+                        <p class="statistics__info">Контрактников на данный момент</p>
+                    </div>
+                    <div class="statistics__item">
+                        <p class="statistics__value"> 90</p>
+                        <p class="statistics__info">Всего членов профсоюза</p>
+                    </div>
+                </div>
+                <div class="statistics__inner">
+                    <div class="statistics__item">
+                        <div class="statistics__title">Новые пользователи</div>
+                        <div class="statistics__area" id="chart">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let monthes = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сенябрь", "Октябрь", "Ноябрь", "Декабрь"]
+        document.addEventListener('DOMContentLoaded', function () {
+            console.log(new Date(new Date().getFullYear(),new Date().getMonth() - 3, 1));
+            Highcharts.chart("chart", {
+                chart: {
+                    reflow: false,
+                    borderWidth: 0,
+                    backgroundColor: null,
+                    marginLeft: 50,
+                    marginRight: 20,
+                    zoomType: 'x',
+                },
+                title: {
+                    text: null
+                },
+                accessibility: {
+                    enabled: false
+                },
+                xAxis: {
+                    type: 'datetime',
+                    showLastTickLabel: true,
+                    // maxZoom: 6*31 * 24 * 3600000, // fourteen days
+                    plotBands: [{
+                        id: 'mask-before',
+                        from: new Date(new Date().getFullYear(),new Date().getMonth() - 3,1),
+                        to:   new Date(new Date().getFullYear(),new Date().getMonth() + 1,1),
+                        color: 'rgba(0, 0, 0, 0.2)'
+                    }],
+                    title: {
+                        text: null
+                    },
+                    // tickInterval: 6
+                },
+                yAxis: {
+                    title: {
+                        text: 'Fruit eaten'
+                    }
+                },
+                series: [{
+                    name: 'Jane',
+                    data: [[Date.UTC(2009,6,1),921],[Date.UTC(2009,7,1),1053],[Date.UTC(2009,8,1),2798],[Date.UTC(2009,9,1),1044],[Date.UTC(2009,10,1),3213],[Date.UTC(2009,11,1),2212],[Date.UTC(2009,12,1),2762],[Date.UTC(2010,1,1),4640],[Date.UTC(2010,2,1),4150],[Date.UTC(2010,3,1),3854],[Date.UTC(2010,4,1),2319],[Date.UTC(2010,5,1),1728],[Date.UTC(2010,6,1),1112],[Date.UTC(2010,7,1),3508],[Date.UTC(2010,8,1),3292],[Date.UTC(2010,9,1),1520],[Date.UTC(2010,10,1),2151],[Date.UTC(2010,11,1),516],[Date.UTC(2010,12,1),1260],[Date.UTC(2011,1,1),4608],[Date.UTC(2011,2,1),890],[Date.UTC(2011,3,1),1597],[Date.UTC(2011,4,1),206],[Date.UTC(2011,5,1),4981]],
+
+                }, {
+                    // name: 'John',
+                    // data: [3, 7, 3]
+                }]
+            })
+        });
+        console.log(new Date(new Date().getFullYear(),new Date().getMonth() - 3, new Date().getDate()));
+    </script>
+</main>
+</html>

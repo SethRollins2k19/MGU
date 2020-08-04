@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../scrollBar/style.css">
+    <link rel="stylesheet" href="../button.css">
+    <link rel="stylesheet" href="../MainStyle.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <title>verification profile</title>
+</head>
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__left">
+                <img class="header__logo" src="../images/icon/mguiconFilled.png" alt="МГУ">
+                <p class="header__title">
+                    Профсоюзная организация МГУ
+                </p>
+            </div>
+            <div class="header__right">
+                <img class="header__avatar" src="../images/profileIcon.png" alt="avatar">
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <div class="main-wrapper">
+            <nav class="sidebar">
+                <a href="./Request.html" class="sidebar__item">
+                    <svg class="sidebar__icon" width="24" height="14" viewBox="0 0 24 14" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 12V14H7V12C7 12 7 8 13 8C19 8 19 12 19 12ZM16 3C16 2.40666 15.8241 1.82664 15.4944 1.33329C15.1648 0.839943 14.6962 0.455426 14.1481 0.228363C13.5999 0.00129986 12.9967 -0.0581102 12.4147 0.0576455C11.8328 0.173401 11.2982 0.459123 10.8787 0.878681C10.4591 1.29824 10.1734 1.83279 10.0576 2.41473C9.94189 2.99667 10.0013 3.59987 10.2284 4.14805C10.4554 4.69623 10.8399 5.16477 11.3333 5.49441C11.8266 5.82405 12.4067 6 13 6C13.7956 6 14.5587 5.68393 15.1213 5.12132C15.6839 4.55871 16 3.79565 16 3ZM19.2 8.06C19.7466 8.5643 20.1873 9.17244 20.4964 9.84891C20.8054 10.5254 20.9766 11.2566 21 12V14H24V12C24 12 24 8.55 19.2 8.06ZM18 1.1415e-06C17.6979 0.000181955 17.3976 0.0474144 17.11 0.140001C17.6951 0.97897 18.0087 1.97718 18.0087 3C18.0087 4.02282 17.6951 5.02103 17.11 5.86C17.3976 5.95259 17.6979 5.99982 18 6C18.7956 6 19.5587 5.68393 20.1213 5.12132C20.6839 4.55871 21 3.79565 21 3C21 2.20435 20.6839 1.44129 20.1213 0.878681C19.5587 0.316072 18.7956 1.1415e-06 18 1.1415e-06ZM8 5H5V2H3V5H0V7H3V10H5V7H8V5Z"
+                              fill="white"/>
+                    </svg>
+                    Заявки
+                </a>
+                <a href="./Members.html" class="sidebar__item sidebar__item--active">
+                    <svg class="sidebar__icon" width="23" height="14" viewBox="0 0 23 14" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 12V14H6V12C6 12 6 8 12 8C18 8 18 12 18 12ZM15 3C15 2.40666 14.8241 1.82664 14.4944 1.33329C14.1648 0.839943 13.6962 0.455426 13.1481 0.228363C12.5999 0.00129986 11.9967 -0.0581102 11.4147 0.0576455C10.8328 0.173401 10.2982 0.459123 9.87868 0.878681C9.45912 1.29824 9.1734 1.83279 9.05764 2.41473C8.94189 2.99667 9.0013 3.59987 9.22836 4.14805C9.45542 4.69623 9.83994 5.16477 10.3333 5.49441C10.8266 5.82405 11.4067 6 12 6C12.7956 6 13.5587 5.68393 14.1213 5.12132C14.6839 4.55871 15 3.79565 15 3ZM18.2 8.06C18.7466 8.5643 19.1873 9.17244 19.4964 9.84891C19.8054 10.5254 19.9766 11.2566 20 12V14H23V12C23 12 23 8.55 18.2 8.06ZM17 1.1415e-06C16.6979 0.000181955 16.3976 0.0474144 16.11 0.140001C16.6951 0.97897 17.0087 1.97718 17.0087 3C17.0087 4.02282 16.6951 5.02103 16.11 5.86C16.3976 5.95259 16.6979 5.99982 17 6C17.7956 6 18.5587 5.68393 19.1213 5.12132C19.6839 4.55871 20 3.79565 20 3C20 2.20435 19.6839 1.44129 19.1213 0.878681C18.5587 0.316072 17.7956 1.1415e-06 17 1.1415e-06ZM6.34 3.92L7.5 5.33L2.75 10.08L0 7.08L1.16 5.92L2.75 7.5L6.34 3.92Z"
+                              fill="#1A254E"/>
+                    </svg>
+
+                    Члены профсоюза
+                </a>
+                <a href="./Removed.html" class="sidebar__item ">
+                    <svg class="sidebar__icon" width="24" height="14" viewBox="0 0 24 14" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 12V14H7V12C7 12 7 8 13 8C19 8 19 12 19 12ZM16 3C16 2.40666 15.8241 1.82664 15.4944 1.33329C15.1648 0.839943 14.6962 0.455426 14.1481 0.228363C13.5999 0.00129986 12.9967 -0.0581102 12.4147 0.0576455C11.8328 0.173401 11.2982 0.459123 10.8787 0.878681C10.4591 1.29824 10.1734 1.83279 10.0576 2.41473C9.94189 2.99667 10.0013 3.59987 10.2284 4.14805C10.4554 4.69623 10.8399 5.16477 11.3333 5.49441C11.8266 5.82405 12.4067 6 13 6C13.7956 6 14.5587 5.68393 15.1213 5.12132C15.6839 4.55871 16 3.79565 16 3ZM19.2 8.06C19.7466 8.5643 20.1873 9.17244 20.4964 9.84891C20.8054 10.5254 20.9766 11.2566 21 12V14H24V12C24 12 24 8.55 19.2 8.06ZM18 1.1415e-06C17.6979 0.000181955 17.3976 0.0474144 17.11 0.140001C17.6951 0.97897 18.0087 1.97718 18.0087 3C18.0087 4.02282 17.6951 5.02103 17.11 5.86C17.3976 5.95259 17.6979 5.99982 18 6C18.7956 6 19.5587 5.68393 20.1213 5.12132C20.6839 4.55871 21 3.79565 21 3C21 2.20435 20.6839 1.44129 20.1213 0.878681C19.5587 0.316072 18.7956 1.1415e-06 18 1.1415e-06ZM8 5H0V7H8V5Z"
+                              fill="#1A254E"/>
+                    </svg>
+                    Исключенные
+                </a>
+                <a href="./Employeer.html" class="sidebar__item">
+                    <svg class="sidebar__icon" width="16" height="18" viewBox="0 0 16 18" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 0C9.06087 0 10.0783 0.421427 10.8284 1.17157C11.5786 1.92172 12 2.93913 12 4C12 5.06087 11.5786 6.07828 10.8284 6.82843C10.0783 7.57857 9.06087 8 8 8C6.93913 8 5.92172 7.57857 5.17157 6.82843C4.42143 6.07828 4 5.06087 4 4C4 2.93913 4.42143 1.92172 5.17157 1.17157C5.92172 0.421427 6.93913 0 8 0ZM12 10.54C12 11.6 11.72 14.07 9.81 16.83L9 12L9.94 10.12C9.32 10.05 8.67 10 8 10C7.33 10 6.68 10.05 6.06 10.12L7 12L6.19 16.83C4.28 14.07 4 11.6 4 10.54C1.61 11.24 0 12.5 0 14V18H16V14C16 12.5 14.4 11.24 12 10.54Z"
+                              fill="#1A254E"/>
+                    </svg>
+                    Сотрудники
+                </a>
+                <a href="./AdminStatistics.html" class="sidebar__item">
+                    <svg class="sidebar__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 0V20C3.9 19.5 0 15.2 0 10C0 4.8 3.9 0.5 9 0ZM11 0V9H20C19.5 4.2 15.8 0.5 11 0ZM11 11V20C15.7 19.5 19.5 15.8 20 11H11Z"
+                              fill="#1A254E"/>
+                    </svg>
+                    Статистика
+                </a>
+            </nav>
+            <div class="scroll-content">
+                <header class="header-wrapper">
+                    <form class="search">
+                        <button class="search__button" type="submit">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M10.4419 10.4422C10.5348 10.3492 10.6451 10.2755 10.7665 10.2252C10.8879 10.1748 11.018 10.1489 11.1494 10.1489C11.2809 10.1489 11.411 10.1748 11.5324 10.2252C11.6538 10.2755 11.7641 10.3492 11.8569 10.4422L15.7069 14.2922C15.8946 14.4797 16.0001 14.7341 16.0001 14.9994C16.0002 15.2646 15.895 15.5191 15.7074 15.7067C15.5199 15.8944 15.2656 15.9998 15.0003 15.9999C14.735 16 14.4806 15.8947 14.2929 15.7072L10.4429 11.8572C10.35 11.7643 10.2762 11.6541 10.2259 11.5327C10.1756 11.4113 10.1497 11.2811 10.1497 11.1497C10.1497 11.0183 10.1756 10.8882 10.2259 10.7668C10.2762 10.6454 10.35 10.5351 10.4429 10.4422H10.4419Z"
+                                      fill="black" fill-opacity="0.38"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M6.5 12C7.22227 12 7.93747 11.8577 8.60476 11.5813C9.27205 11.3049 9.87837 10.8998 10.3891 10.3891C10.8998 9.87837 11.3049 9.27205 11.5813 8.60476C11.8577 7.93747 12 7.22227 12 6.5C12 5.77773 11.8577 5.06253 11.5813 4.39524C11.3049 3.72795 10.8998 3.12163 10.3891 2.61091C9.87837 2.10019 9.27205 1.69506 8.60476 1.41866C7.93747 1.14226 7.22227 1 6.5 1C5.04131 1 3.64236 1.57946 2.61091 2.61091C1.57946 3.64236 1 5.04131 1 6.5C1 7.95869 1.57946 9.35764 2.61091 10.3891C3.64236 11.4205 5.04131 12 6.5 12ZM13 6.5C13 8.22391 12.3152 9.87721 11.0962 11.0962C9.87721 12.3152 8.22391 13 6.5 13C4.77609 13 3.12279 12.3152 1.90381 11.0962C0.684819 9.87721 0 8.22391 0 6.5C0 4.77609 0.684819 3.12279 1.90381 1.90381C3.12279 0.684819 4.77609 0 6.5 0C8.22391 0 9.87721 0.684819 11.0962 1.90381C12.3152 3.12279 13 4.77609 13 6.5Z"
+                                      fill="black" fill-opacity="0.38"/>
+                            </svg>
+                        </button>
+                        <input class="search__input" type="text" placeholder="Найти пользователя">
+                    </form>
+                    <div class="filter">
+                        <svg width="24" height="14" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8 13C8 12.7348 8.10536 12.4804 8.29289 12.2929C8.48043 12.1054 8.73478 12 9 12H15C15.2652 12 15.5196 12.1054 15.7071 12.2929C15.8946 12.4804 16 12.7348 16 13C16 13.2652 15.8946 13.5196 15.7071 13.7071C15.5196 13.8946 15.2652 14 15 14H9C8.73478 14 8.48043 13.8946 8.29289 13.7071C8.10536 13.5196 8 13.2652 8 13ZM4 7C4 6.73478 4.10536 6.48043 4.29289 6.29289C4.48043 6.10536 4.73478 6 5 6H19C19.2652 6 19.5196 6.10536 19.7071 6.29289C19.8946 6.48043 20 6.73478 20 7C20 7.26522 19.8946 7.51957 19.7071 7.70711C19.5196 7.89464 19.2652 8 19 8H5C4.73478 8 4.48043 7.89464 4.29289 7.70711C4.10536 7.51957 4 7.26522 4 7ZM0 1C0 0.734784 0.105357 0.48043 0.292893 0.292893C0.48043 0.105357 0.734784 0 1 0H23C23.2652 0 23.5196 0.105357 23.7071 0.292893C23.8946 0.48043 24 0.734784 24 1C24 1.26522 23.8946 1.51957 23.7071 1.70711C23.5196 1.89464 23.2652 2 23 2H1C0.734784 2 0.48043 1.89464 0.292893 1.70711C0.105357 1.51957 0 1.26522 0 1Z" fill="black" fill-opacity="0.38"/>
+                        </svg>
+                        Фильтр
+                    </div>
+                </header>
+                <div class="main-frame">
+                    <div class="table">
+                        <div class="table__header table--members-admin">
+                            <label class="table__title">
+                                <input type="checkbox" name="noStudPass" class="form__input">
+                                <div class="form__checkbox-shape">
+                                    <svg width="13" height="14" viewBox="1 1 12 13" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M1.5 0.5H12C12.825 0.5 13.5 1.175 13.5 2V12.5C13.5 13.325 12.825 14 12 14H1.5C0.675 14 0 13.325 0 12.5V2C0 1.175 0.675 0.5 1.5 0.5ZM5.74991 11.5004L1.99991 7.89463L3.04991 6.88501L5.74991 9.48116L11.4499 4.0004L12.4999 5.01001L5.74991 11.5004Z"
+                                              fill="#1A254E"/>
+                                    </svg>
+                                </div>
+                            </label>
+                            <p class="table__title">
+                                Факультет
+                            </p>
+                            <p class="table__title">
+                                Фамилия
+                            </p>
+                            <p class="table__title">
+                                Имя
+                            </p>
+                            <p class="table__title">
+                                Дата вступления
+                            </p>
+                            <p class="table__title">
+                                Email
+                            </p>
+                            <p class="table__title">
+                                Телефон
+                            </p>
+                            <p class="table__title">
+                                № Профбилета
+                            </p>
+                            <p class="table__title">
+                                Тип обучения
+                            </p>
+                        </div>
+                        <div class="table__inner ">
+                            <div class="table__item table--members-admin">
+                                <label class="table__title">
+                                    <input type="checkbox" name="noStudPass" class="form__input">
+                                    <div class="form__checkbox-shape">
+                                        <svg width="13" height="14" viewBox="1 1 12 13" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M1.5 0.5H12C12.825 0.5 13.5 1.175 13.5 2V12.5C13.5 13.325 12.825 14 12 14H1.5C0.675 14 0 13.325 0 12.5V2C0 1.175 0.675 0.5 1.5 0.5ZM5.74991 11.5004L1.99991 7.89463L3.04991 6.88501L5.74991 9.48116L11.4499 4.0004L12.4999 5.01001L5.74991 11.5004Z"
+                                                  fill="#1A254E"/>
+                                        </svg>
+                                    </div>
+                                </label>
+                                <p class="table__title">
+                                    ВШ Государственного Администрирования
+                                </p>
+                                <p class="table__title">
+                                    Воскобойников
+                                </p>
+                                <p class="table__title">
+                                    Александр
+                                </p>
+                                <p class="table__title">
+                                    23.06.2020
+                                </p>
+                                <p class="table__title">
+                                    alex12939478@mail.ru
+                                </p>
+                                <p class="table__title">
+                                    8 (888) 888 88 88
+                                </p>
+                                <p class="table__title">
+                                    01610201
+                                </p>
+                                <p class="table__title">
+                                    Контракт
+                                </p>
+                            </div>
+                            <div class="table__item table--members-admin">
+                                <label class="table__title">
+                                    <input type="checkbox" name="noStudPass" class="form__input">
+                                    <div class="form__checkbox-shape">
+                                        <svg width="13" height="14" viewBox="1 1 12 13" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                  d="M1.5 0.5H12C12.825 0.5 13.5 1.175 13.5 2V12.5C13.5 13.325 12.825 14 12 14H1.5C0.675 14 0 13.325 0 12.5V2C0 1.175 0.675 0.5 1.5 0.5ZM5.74991 11.5004L1.99991 7.89463L3.04991 6.88501L5.74991 9.48116L11.4499 4.0004L12.4999 5.01001L5.74991 11.5004Z"
+                                                  fill="#1A254E"/>
+                                        </svg>
+                                    </div>
+                                </label>
+                                <p class="table__title">
+                                    Биологический
+                                </p>
+                                <p class="table__title">
+                                    Воскобойников
+                                </p>
+                                <p class="table__title">
+                                    Александр
+                                </p>
+                                <p class="table__title">
+                                    23.06.2020
+                                </p>
+                                <p class="table__title">
+                                    alex12939478@mail.ru
+                                </p>
+                                <p class="table__title">
+                                    8 (888) 888 88 88
+                                </p>
+                                <p class="table__title">
+                                    01610201
+                                </p>
+                                <p class="table__title">
+                                    Бюджет
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="add-member">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11 5V11H5V13H11V19H13V13H19V11H13V5H11Z"
+                              fill="white"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="save-as">
+                <div class="save-as__title">Сохранить списком</div>
+                <div class="save-as__item">
+                    всех членов профсоюза
+                    <div class="save-as__button-block">
+                        <button class="button">
+                            csv
+                        </button>
+                        <button class="button">
+                            word
+                        </button>
+                    </div>
+                </div>
+                <div class="save-as__item save-as__item--half">
+                    новых членов профсоюза
+                    <div class="save-as__button-block">
+                        <button class="button button--small">
+                            csv
+                        </button>
+                        <button class="button button--small">
+                            word
+                        </button>
+                    </div>
+                </div>
+                <div class="save-as__item save-as__item--half">
+                    всех членов профсоюза
+                    <div class="save-as__button-block">
+                        <button class="button button--small">
+                            csv
+                        </button>
+                        <button class="button button--small">
+                            word
+                        </button>
+                    </div>
+                </div>
+                <div class="save-as__item save-as__item--half">
+                    бюджетников
+                    <div class="save-as__button-block">
+                        <button class="button button--small">
+                            csv
+                        </button>
+                        <button class="button button--small">
+                            word
+                        </button>
+                    </div>
+                </div>
+                <div class="save-as__item save-as__item--half">
+                    контрактников
+                    <div class="save-as__button-block">
+                        <button class="button button--small">
+                            csv
+                        </button>
+                        <button class="button button--small">
+                            word
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</html>
