@@ -133,6 +133,8 @@ body {
 }
 
 .form__submit {
+    display: block;
+    text-decoration: none;
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -155,6 +157,7 @@ body {
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
+    text-align: center;
 }
 
 
@@ -169,11 +172,17 @@ body {
 }
 
 .footer__icon {
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
     width: 85px;
     height: 85px;
 }
 
 .footer__links-wrapper {
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
     display: flex;
 }
 .footer__links {
