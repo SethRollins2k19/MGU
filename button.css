@@ -12,6 +12,7 @@
     padding: 10px 25px;
     transition: .3s linear;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .button:hover {
