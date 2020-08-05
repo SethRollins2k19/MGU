@@ -522,6 +522,7 @@ body {
 .table {
     height: 100%;
     overflow: auto;
+    overflow-x: scroll;
 }
 .table__header {
     display: -ms-grid;

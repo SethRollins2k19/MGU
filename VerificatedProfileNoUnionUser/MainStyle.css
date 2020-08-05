@@ -457,7 +457,9 @@ body {
 .table {
     height: 100%;
     overflow: auto;
+    overflow-x: scroll;
 }
+
 .table__header {
     display: grid;
     border-bottom: 1px solid #F2F3F5;
