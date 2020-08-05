@@ -706,7 +706,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
 .save-as__button-block .button:first-child {
     margin-right: 5px;
