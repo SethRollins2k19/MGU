@@ -22,6 +22,7 @@ body {
     position: relative;
     width: 100%;
     height: 100vh;
+    min-height: 700px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -200,3 +201,5 @@ body {
 .footer__links:first-of-type{
     margin-right: 18px;
 }
+
+

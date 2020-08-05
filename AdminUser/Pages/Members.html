@@ -12,20 +12,21 @@
     <link rel="stylesheet" href="../scrollBar/style.css">
     <link rel="stylesheet" href="../button.css">
     <link rel="stylesheet" href="../MainStyle.css">
+    <link rel="stylesheet" href="../Media.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <title>verification profile</title>
 </head>
-<header class="header">
+<header class="header-page">
     <div class="container">
-        <div class="header__inner">
-            <div class="header__left">
-                <img class="header__logo" src="../images/icon/mguiconFilled.png" alt="МГУ">
-                <p class="header__title">
+        <div class="header-page__inner">
+            <div class="header-page__left">
+                <img class="header-page__logo" src="../images/icon/mguiconFilled.png" alt="МГУ">
+                <p class="header-page__title">
                     Профсоюзная организация МГУ
                 </p>
             </div>
-            <div class="header__right">
-                <img class="header__avatar" src="../images/profileIcon.png" alt="avatar">
+            <div class="header-page__right">
+                <img class="header-page__avatar" src="../images/profileIcon.png" alt="avatar">
             </div>
         </div>
     </div>
@@ -33,6 +34,9 @@
 <main>
     <div class="container">
         <div class="main-wrapper">
+            <div class="burger-menu">
+
+            </div>
             <nav class="sidebar">
                 <a href="./Request.html" class="sidebar__item">
                     <svg class="sidebar__icon" width="24" height="14" viewBox="0 0 24 14" fill="none"
@@ -226,7 +230,17 @@
             <div class="save-as">
                 <div class="save-as__title">Сохранить списком</div>
                 <div class="save-as__item">
-                    всех членов профсоюза
+                    НОВЫХ ЧЛЕНОВ ПРОФСОЮЗА
+                    <div class="save-as__button-block">
+                        <button class="button">
+                            csv
+                        </button>
+                        <button class="button">
+                            word
+                        </button>
+                    </div>
+                </div> <div class="save-as__item">
+                ВЫБРАННЫХ ПОЛЬЗОВАТЕЛЕЙ
                     <div class="save-as__button-block">
                         <button class="button">
                             csv
@@ -237,7 +251,7 @@
                     </div>
                 </div>
                 <div class="save-as__item save-as__item--half">
-                    новых членов профсоюза
+                    ЗАНОВО ВЕРИФИЦИРОВАННЫХ ПОЛЬЗОВАТЕЛЕЙ
                     <div class="save-as__button-block">
                         <button class="button button--small">
                             csv
@@ -248,7 +262,7 @@
                     </div>
                 </div>
                 <div class="save-as__item save-as__item--half">
-                    всех членов профсоюза
+                    тех, кто не распечатал профбилет
                     <div class="save-as__button-block">
                         <button class="button button--small">
                             csv
@@ -259,7 +273,7 @@
                     </div>
                 </div>
                 <div class="save-as__item save-as__item--half">
-                    бюджетников
+                    БЮДЖЕТНИКОВ
                     <div class="save-as__button-block">
                         <button class="button button--small">
                             csv
