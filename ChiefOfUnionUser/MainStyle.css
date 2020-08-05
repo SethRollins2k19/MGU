@@ -12,37 +12,37 @@ body {
     margin: 0 auto;
 }
 
-.header {
+.header-page {
     width: 100%;
     background: #FFFFFF;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.16);
 }
 
-.header__inner {
+.header-page__inner {
     padding: 7px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header__title {
+.header-page__title {
     font-weight: bold;
     font-size: 20px;
     line-height: 24px;
     color: #1A254E;
 }
 
-.header__logo {
+.header-page__logo {
     width: 52px;
     margin-right: 74px;
 }
 
-.header__left {
+.header-page__left {
     display: flex;
     align-items: center;
 }
 
-.header__right {
+.header-page__right {
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -53,7 +53,7 @@ body {
 }
 
 
-.header__avatar {
+.header-page__avatar {
     height: 100%;
 }
 
