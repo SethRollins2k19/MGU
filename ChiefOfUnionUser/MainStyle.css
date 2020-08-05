@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: > 0.1%
+*/
+
 body {
     background: #E5E5E5;
     font-family: Roboto, sans-serif;
@@ -58,15 +65,19 @@ body {
 }
 
 .main-wrapper {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    -ms-grid-columns: 1fr 28px 3fr;
+    grid-template-columns: 1fr minmax(100px,3fr);
     grid-column-gap: 28px;
     grid-row-gap: 20px;
     margin: 20px 0;
 }
 
 .sidebar {
+    -ms-grid-row: 1;
     grid-row-start: 1;
+    -ms-grid-row-span: 2;
     grid-row-end: 3;
     font-size: 18px;
     line-height: 16px;
@@ -120,6 +131,26 @@ body {
     padding: 20px 25px;
 }
 
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.filter {
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 0 0 10px rgba(169, 170, 194, 0.5);
+    border-radius: 7px;
+    padding: 0px 13px;
+    margin-bottom: 13px;
+    display: flex;
+    align-items: center;
+    width: calc(30% - 15px);
+    color: rgba(0,0,0,0.38);
+}
+.filter svg {
+    opacity: 0.38;
+    margin-right: 12px;
+}
 .search {
     background: #FFFFFF;
     box-shadow: 0 0 10px rgba(169, 170, 194, 0.5);
@@ -128,6 +159,7 @@ body {
     margin-bottom: 13px;
     display: flex;
     align-items: center;
+    width: calc(70% - 15px);
 }
 
 .search__button {
@@ -148,6 +180,26 @@ body {
 }
 .search__input:focus {
     outline: none;
+}
+.search__input::-webkit-input-placeholder {
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.38);
+}
+.search__input::-moz-placeholder {
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.38);
+}
+.search__input:-ms-input-placeholder {
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.38);
+}
+.search__input::-ms-input-placeholder {
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.38);
 }
 .search__input::placeholder {
     font-size: 16px;
@@ -319,8 +371,12 @@ body {
 
 .dropdown--list-dropdown {
     /*display: flex;*/
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
     transform-origin: top;
     opacity: 0;
+    -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
     transform: scaleY(0);
     transition: .3s linear;
 }
@@ -336,7 +392,11 @@ body {
 }
 
 .form__label-container--list svg {
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
     transform-origin: center;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
     transform: rotate(0deg);
     /*transition: .3s linear;*/
 }
@@ -347,11 +407,15 @@ body {
 
 .form__label-container--list--active svg {
     margin-right: -2.5px;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 
 .form__label-container--list--active .dropdown--list-dropdown {
     opacity: 1;
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
     transform: scaleY(1);
 }
 
@@ -459,6 +523,7 @@ body {
     overflow: auto;
 }
 .table__header {
+    display: -ms-grid;
     display: grid;
     border-bottom: 1px solid #F2F3F5;
     padding-bottom: 15px;
@@ -468,26 +533,55 @@ body {
 }
 
 .table--request {
+    display: -ms-grid;
     display: grid;
     grid-column-gap: 10px;
+    -ms-grid-columns: 16px 10px minmax(120px, 1fr) 10px minmax(90px, 1fr) 10px minmax(90px, 1fr) 10px minmax(165px, 1fr) 10px minmax(135px, 1fr);
     grid-template-columns: 16px minmax(120px, 1fr) minmax(90px, 1fr) minmax(90px, 1fr) minmax(165px, 1fr) minmax(135px, 1fr)  ;
 }
+.table--request-admin {
+    display: -ms-grid;
+    display: grid;
+    grid-column-gap: 20px;
+    -ms-grid-columns: 16px 20px minmax(162px, 1fr) 20px minmax(120px, 1fr) 20px minmax(90px, 1fr) 20px minmax(90px, 1fr) 20px minmax(165px, 1fr) 20px minmax(135px, 1fr);
+    grid-template-columns: 16px minmax(162px, 1fr) minmax(120px, 1fr) minmax(90px, 1fr) minmax(90px, 1fr) minmax(165px, 1fr) minmax(135px, 1fr)  ;
+}
+.table--members-admin {
+    display: -ms-grid;
+    display: grid;
+    grid-column-gap: 25px;
+    -ms-grid-columns: 16px 25px minmax(162px, 1fr) 25px minmax(120px, 1fr) 25px minmax(90px, 1fr) 25px minmax(90px, 1fr) 25px minmax(165px, 1fr) 25px minmax(135px, 1fr) 25px minmax(114px, 1fr) 25px minmax(90px, 1fr);
+    grid-template-columns: 16px minmax(162px, 1fr) minmax(120px, 1fr) minmax(90px, 1fr) minmax(90px, 1fr) minmax(165px, 1fr) minmax(135px, 1fr) minmax(114px, 1fr) minmax(90px, 1fr)  ;
+}
+.table--employers {
+    display: -ms-grid;
+    display: grid;
+    grid-column-gap: 25px;
+    -ms-grid-columns: 16px 25px minmax(162px, 1fr) 25px minmax(110px, 1fr) 25px minmax(90px, 1fr);
+    grid-template-columns: 16px minmax(162px, 1fr) minmax(110px, 1fr) minmax(90px, 1fr);
+}
 .table--members {
+    display: -ms-grid;
     display: grid;
     grid-column-gap: 10px;
+    -ms-grid-columns: 16px 10px minmax(120px, 1fr) 10px minmax(120px, 1fr) 10px minmax(90px, 1fr) 10px minmax(165px, 1fr) 10px minmax(135px, 1fr) 10px minmax(110px, 1fr);
     grid-template-columns: 16px minmax(120px, 1fr) minmax(120px, 1fr) minmax(90px, 1fr) minmax(165px, 1fr) minmax(135px, 1fr) minmax(110px, 1fr)  ;
 }
 .table--deleted {
+    display: -ms-grid;
     display: grid;
     grid-column-gap: 10px;
+    -ms-grid-columns: 16px 10px minmax(120px, 1fr) 10px minmax(120px, 1fr) 10px minmax(90px, 1fr) 10px minmax(165px, 1fr);
     grid-template-columns: 16px minmax(120px, 1fr) minmax(120px, 1fr) minmax(90px, 1fr) minmax(165px, 1fr);
 }
 
 
 .table__title {
     display: flex;
+    width: 100%;
+    text-align: left;
     align-items: center;
-    justify-content: center;
+    /*justify-content: center;*/
 }
 
 .table__title .form__checkbox-shape {
@@ -505,6 +599,7 @@ body {
     width: 100%;
     overflow: hidden;
     position: relative;
+    -webkit-overflow-scrolling: touch;
 }
 .scroll-content--request-list {
     height: 80vh;
@@ -598,6 +693,7 @@ body {
 }
 
 .statistics__header {
+    display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
     grid-column-gap: 30px;
