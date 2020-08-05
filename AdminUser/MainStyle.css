@@ -537,22 +537,22 @@ body {
     display: -ms-grid;
     display: grid;
     grid-column-gap: 10px;
-    -ms-grid-columns: 16px 10px minmax(120px, 1fr) 10px minmax(90px, 1fr) 10px minmax(90px, 1fr) 10px minmax(165px, 1fr) 10px minmax(135px, 1fr);
-    grid-template-columns: 16px minmax(120px, 1fr) minmax(90px, 1fr) minmax(90px, 1fr) minmax(165px, 1fr) minmax(135px, 1fr)  ;
+    -ms-grid-columns: 16px 10px minmax(120px, 1fr) 10px minmax(90px, 1fr) 10px minmax(90px, 1fr) 10px minmax(165px, 1fr) 10px minmax(150px, 1fr);
+    grid-template-columns: 16px minmax(120px, 1fr) minmax(90px, 1fr) minmax(90px, 1fr) minmax(165px, 1fr) minmax(150px, 1fr)  ;
 }
 .table--request-admin {
     display: -ms-grid;
     display: grid;
     grid-column-gap: 20px;
-    -ms-grid-columns: 16px 20px minmax(162px, 1fr) 20px minmax(120px, 1fr) 20px minmax(90px, 1fr) 20px minmax(90px, 1fr) 20px minmax(165px, 1fr) 20px minmax(135px, 1fr);
-    grid-template-columns: 16px minmax(162px, 1fr) minmax(120px, 1fr) minmax(90px, 1fr) minmax(90px, 1fr) minmax(165px, 1fr) minmax(135px, 1fr)  ;
+    -ms-grid-columns: 16px 20px minmax(162px, 1fr) 20px minmax(120px, 1fr) 20px minmax(90px, 1fr) 20px minmax(90px, 1fr) 20px minmax(165px, 1fr) 20px minmax(150px, 1fr);
+    grid-template-columns: 16px minmax(162px, 1fr) minmax(120px, 1fr) minmax(90px, 1fr) minmax(90px, 1fr) minmax(165px, 1fr) minmax(150px, 1fr)  ;
 }
 .table--members-admin {
     display: -ms-grid;
     display: grid;
     grid-column-gap: 25px;
-    -ms-grid-columns: 16px 25px minmax(162px, 1fr) 25px minmax(120px, 1fr) 25px minmax(90px, 1fr) 25px minmax(90px, 1fr) 25px minmax(165px, 1fr) 25px minmax(135px, 1fr) 25px minmax(114px, 1fr) 25px minmax(90px, 1fr);
-    grid-template-columns: 16px minmax(162px, 1fr) minmax(120px, 1fr) minmax(90px, 1fr) minmax(90px, 1fr) minmax(165px, 1fr) minmax(135px, 1fr) minmax(114px, 1fr) minmax(90px, 1fr)  ;
+    -ms-grid-columns: 16px 25px minmax(162px, 1fr) 25px minmax(120px, 1fr) 25px minmax(90px, 1fr) 25px minmax(90px, 1fr) 25px minmax(165px, 1fr) 25px minmax(150px, 1fr) 25px minmax(114px, 1fr) 25px minmax(90px, 1fr);
+    grid-template-columns: 16px minmax(162px, 1fr) minmax(120px, 1fr) minmax(90px, 1fr) minmax(90px, 1fr) minmax(165px, 1fr) minmax(150px, 1fr) minmax(114px, 1fr) minmax(90px, 1fr)  ;
 }
 .table--employers {
     display: -ms-grid;
@@ -565,8 +565,8 @@ body {
     display: -ms-grid;
     display: grid;
     grid-column-gap: 10px;
-    -ms-grid-columns: 16px 10px minmax(120px, 1fr) 10px minmax(120px, 1fr) 10px minmax(90px, 1fr) 10px minmax(165px, 1fr) 10px minmax(135px, 1fr) 10px minmax(110px, 1fr);
-    grid-template-columns: 16px minmax(120px, 1fr) minmax(120px, 1fr) minmax(90px, 1fr) minmax(165px, 1fr) minmax(135px, 1fr) minmax(110px, 1fr)  ;
+    -ms-grid-columns: 16px 10px minmax(120px, 1fr) 10px minmax(120px, 1fr) 10px minmax(90px, 1fr) 10px minmax(165px, 1fr) 10px minmax(150px, 1fr) 10px minmax(110px, 1fr);
+    grid-template-columns: 16px minmax(120px, 1fr) minmax(120px, 1fr) minmax(90px, 1fr) minmax(165px, 1fr) minmax(150px, 1fr) minmax(110px, 1fr)  ;
 }
 .table--deleted {
     display: -ms-grid;
