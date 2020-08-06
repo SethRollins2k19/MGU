@@ -598,6 +598,7 @@ body {
 .scroll-content {
     height: 65vh;
     /*height: 80vh;*/
+    min-height: 400px;
     width: 100%;
     overflow: hidden;
     position: relative;
