@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3d01a03c-5d3f-457f-9879-711630f913f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdminUser/MainStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/AdminUser/MainStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdminUser/Pages/AdminStatistics.html" beforeDir="false" afterPath="$PROJECT_DIR$/AdminUser/Pages/AdminStatistics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdminUser/Pages/Employeer.html" beforeDir="false" afterPath="$PROJECT_DIR$/AdminUser/Pages/Employeer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdminUser/Pages/Members.html" beforeDir="false" afterPath="$PROJECT_DIR$/AdminUser/Pages/Members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdminUser/Pages/Removed.html" beforeDir="false" afterPath="$PROJECT_DIR$/AdminUser/Pages/Removed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdminUser/Pages/Request.html" beforeDir="false" afterPath="$PROJECT_DIR$/AdminUser/Pages/Request.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
