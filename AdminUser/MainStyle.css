@@ -638,6 +638,7 @@ body {
     background: #3A3A86;
 }
 .burger-menu {
+    tab-index: 1;
     display: none;
     cursor: pointer;
     width: 30px;
@@ -658,16 +659,18 @@ body {
     transform: translateY(-50%);
     transition: 0.3s linear;
 }
-.burger-menu--active,
+.burger-menu__trigger:checked + .burger-menu,
 .burger-menu:hover {
     border-color: black;
 }
 
 .burger-menu:hover::after,
-.burger-menu--active .burger-menu:after{
+.burger-menu__trigger:checked + .burger-menu::after{
     background: #000000;
 }
-
+.burger-menu__trigger{
+    display: none;
+}
 
 .save-as {
     padding: 20px 25px;
@@ -689,6 +692,7 @@ body {
 }
 .save-as__item {
     width: 100%;
+    min-width: 290px;
     padding: 3px 3px 3px 16px;
     background: rgba(169, 170, 194, 0.5);
     font-weight: 500;
@@ -713,6 +717,8 @@ body {
 }
 .save-as__item--half {
     width: 49%;
+    min-width: 290px;
+    margin-bottom: 10px;
 }
 
 .save-as--delete {
