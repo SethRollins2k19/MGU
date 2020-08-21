@@ -64,6 +64,8 @@ body {
     height: 100%;
 }
 
+
+/*Start of popup filter style use some additional class as form__checkbox-shape and another style for this component */
 .popup-sort {
     position: absolute;
     right: 0;
@@ -129,6 +131,9 @@ body {
     color: #2C2C59;
     margin-right: 10px;
 }
+
+
+/*------- END OF POPUP FILTER STYLE*/
 
 .main-wrapper {
     display: -ms-grid;
